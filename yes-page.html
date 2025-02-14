@@ -345,7 +345,7 @@
             e.preventDefault();
             const name = document.getElementById('name-input').value.trim().toLowerCase();
             
-            if(name === 'honey') { // Change to your secret name
+             // Change to your secret name
                 document.getElementById('login-section').style.display = 'none';
                 document.getElementById('loading-section').style.display = 'flex';
                 document.querySelector('.progress').style.width = '100%';
@@ -354,9 +354,7 @@
                     document.getElementById('loading-section').style.display = 'none';
                     document.getElementById('spiral-diary').style.display = 'block';
                 }, 3000);
-            } else {
-                alert('I stopped to put efforts on wrong people only special one enter the dimension! ❤️');
-            }
+           
         });
 
         // Rose Petals Animation
